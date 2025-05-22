@@ -15,14 +15,7 @@ nav:
 
 theme:
   name: readthedocs
+  locale: pt_BR
   language: pt-BR
-
-markdown_extensions:
-  - toc:
-      permalink: true
-  - admonition
-  - codehilite
-  - footnotes
-  - tables
 
 copyright: Todos os direitos reservados. &copy; 2025 Physicos Academia
