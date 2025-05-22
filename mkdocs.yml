@@ -1,0 +1,32 @@
+# Site name
+site_name: Physicos Academia
+
+# Navigation menu
+nav:
+  - Início: index.md
+  - Treino masculino (Opção 1): mens-training.md
+
+# Theme
+theme:
+    feaures:
+      - tabs
+    name: readthedocs
+    icon:
+      logo: material/cloud
+    font:
+      text: Ubuntu
+      code: Ubuntu Mono
+    static_templates:
+      - 404.html
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/yriahi
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/youssefriahi/    
+
+copyright: Copyright &copy; 2020 Youssef Riahi
