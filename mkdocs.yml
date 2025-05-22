@@ -1,32 +1,28 @@
-# Site name
 site_name: Physicos Academia
 
-# Navigation menu
+site_description: Treinos, dicas e informações para a sua evolução física.
+site_author: Physicos Academia
+
 nav:
   - Início: index.md
-  - Treino masculino (Opção 1): treino-masculino.md
+  - Treinos (Planilhas):
+      - Treino Masculino (Opção 1): planilhas/treino-masculino.md
+  - Exercícios:
+      - Peito:
+          - Supino Reto: exercicios/peito/supino-reto.md
+          - Supino Inclinado: exercicios/peito/supino-inclinado.md
+          - Supino Declinado: exercicios/peito/supino-declinado.md
 
-# Theme
 theme:
-    feaures:
-      - tabs
-    name: readthedocs
-    icon:
-      logo: material/cloud
-    font:
-      text: Ubuntu
-      code: Ubuntu Mono
-    static_templates:
-      - 404.html
+  name: readthedocs
+  language: pt-BR
 
-plugins:
-  - search
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - footnotes
+  - tables
 
-extra:
-  social:
-    - icon: fontawesome/brands/github-alt
-      link: https://github.com/yriahi
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/youssefriahi/    
-
-copyright: Copyright &copy; 2020 Youssef Riahi
+copyright: Todos os direitos reservados. &copy; 2025 Physicos Academia

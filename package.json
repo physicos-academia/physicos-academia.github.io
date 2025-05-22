@@ -6,7 +6,10 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "mkdocs gh-deploy",
+    "serve": "mkdocs serve",
+    "build": "mkdocs build",
+    "clean": "mkdocs clean"
   },
   "repository": {
     "type": "git",
