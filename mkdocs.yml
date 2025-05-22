@@ -4,7 +4,7 @@ site_name: Physicos Academia
 # Navigation menu
 nav:
   - Início: index.md
-  - Treino masculino (Opção 1): mens-training.md
+  - Treino masculino (Opção 1): treino-masculino.md
 
 # Theme
 theme:
